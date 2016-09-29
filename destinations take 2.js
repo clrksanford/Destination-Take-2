@@ -63,3 +63,45 @@
                     showImage('Bern');
             }
         }
+
+$(document).ready(function() {
+   $("#clear").click(function() {
+      $("img").css("visibility", "hidden"); 
+   });
+});
+
+$(document).ready(function() {
+    $("#showLyon").click(function() {
+       showThisImage("Lyon");    
+    });
+});
+
+$(document).ready(function() {
+    $("#showAtlanta").click(function() {
+       showThisImage("Atlanta");    
+    });
+});
+
+$(document).ready(function() {
+    $("#showMarrakech").click(function() {
+       showThisImage("Marrakech");    
+    });
+});
+
+$(document).ready(function() {
+    $("#showIstanbul").click(function() {
+       showThisImage("Istanbul");    
+    });
+});
+
+$(document).ready(function() {
+    $("#showLisbon").click(function() {
+       showThisImage("Lisbon");    
+    });
+});
+
+$(document).ready(function() {
+    $("#showBern").click(function() {
+       showThisImage("Bern");    
+    });
+});

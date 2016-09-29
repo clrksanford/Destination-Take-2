@@ -1,5 +1,5 @@
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: red; /* Green */
     border: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -7,7 +7,7 @@ button {
     text-decoration: none;
     display: inline-block;
     margin:2px 0px;
-    
+
     font-family: Helvetica, Arial, sans-serif;
     color: white;
     font-size: 16px;
@@ -23,23 +23,26 @@ button:hover {
     padding-bottom: 15px;
     display: inline-block;
     cursor:pointer;
-    
+
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: 16px; 
+    font-size: 16px;
     width: 75%;
     float: left;
     clear: left;
-    
+
 }
 
-h1 {
-    text-align: center; 
+h1,h2 {
+    text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2.2em;
     color: #333333;
-    float: left;
+}
+
+h2 {
+    padding-top: 40px;
 }
 
 header {
@@ -54,7 +57,7 @@ img {
     width: 60%;
     height: auto;
     padding: 0px 5em;
-    
+
     visibility: hidden;
     position: absolute;
     float: right;
