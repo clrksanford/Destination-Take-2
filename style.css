@@ -45,6 +45,10 @@ h2 {
     padding-top: 40px;
 }
 
+#clear {
+  cursor: pointer;
+}
+
 header {
     background-color: lightgray;
     padding: 12px;
