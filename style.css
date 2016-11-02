@@ -46,6 +46,10 @@ h2 {
     cursor: pointer;
 }
 
+#clear {
+  cursor: pointer;
+}
+
 header {
     background-color: lightgray;
     padding: 12px;
